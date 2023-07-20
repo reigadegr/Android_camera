@@ -1,0 +1,5 @@
+#!/bin/sh
+#cd /data/data/com.termux/files/usr/bin
+/data/data/com.termux/files/usr/bingit add .
+/data/data/com.termux/files/usr/bingit commit -m "$1"
+/data/data/com.termux/files/usr/bingit push

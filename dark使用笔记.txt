@@ -1,0 +1,42 @@
+创建dart项目 
+dart create <项目名称>
+例如: dart create my_project
+然后cd ./my_project
+启动项目 dart run
+编译为elf: 
+dart compile exe main.dart
+(可以执行)
+
+编译为JavaScript:
+dart compile js main.dart
+
+编译为本机机器码(aot编译)
+dart compile aot-snapshot main.dart
+(存在一些问题无法执行)
+
+
+官方说明: 
+Usage: dart compile <subcommand> [arguments]
+-h, --help    Print this usage information.
+
+Available subcommands:
+  aot-snapshot   Compile Dart to an AOT snapshot.
+  exe            Compile Dart to a self-contained executable.
+  jit-snapshot   Compile Dart to a JIT snapshot.
+  js             Compile Dart to JavaScript.
+  kernel         Compile Dart to a kernel snapshot.
+
+Run "dart help" to see global options.
+
+
+用法：dart compile <子命令> [参数]
+-h, --help    显示此用法信息。
+
+可用的子命令：
+  aot-snapshot   将 Dart 编译为 AOT 快照。
+  exe            将 Dart 编译为独立可执行文件。
+  jit-snapshot   将 Dart 编译为 JIT 快照。
+  js             将 Dart 编译为 JavaScript。
+  kernel         将 Dart 编译为内核快照。
+
+运行 "dart help" 查看全局选项。
