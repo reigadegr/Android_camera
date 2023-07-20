@@ -3,16 +3,20 @@ dart create <项目名称>
 例如: dart create my_project
 然后cd ./my_project
 启动项目 dart run
+
+
+
 编译为elf: 
 dart compile exe main.dart
-(可以执行)
+(可以正常执行)
 
 编译为JavaScript:
 dart compile js main.dart
+(没太看懂)
 
 编译为本机机器码(aot编译)
 dart compile aot-snapshot main.dart
-(存在一些问题无法执行)
+(存在一些问题无法执行，待研究)
 
 
 官方说明: 
